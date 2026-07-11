@@ -1,7 +1,7 @@
 {
   "label": "Fan Games",
   "position": 2,
-    "collapsible": false,
+  "collapsible": false,
   "link": {
     "type": "generated-index",
     "description": "All 100% free and made from the heart"
