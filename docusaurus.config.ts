@@ -92,11 +92,11 @@ const config: Config = {
           items: [
             {
               label: 'PaintKin',
-              href: '/fan-games/paintkin'
+              href: '/print-and-play/paintkin'
             },
             {
               label: 'Wits & Guts',
-              href: '/fan-games/wits-and-guts'
+              href: '/print-and-play/wits-and-guts'
             }
           ],
         },
