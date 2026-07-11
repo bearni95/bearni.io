@@ -75,28 +75,33 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
-          items: [],
-        },
-        {
-          title: 'Community',
+          title: 'Fan Games',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Dice Duel Monsters',
+              href: '/fan-games/dice-duel-monsters'
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
+              label: 'Pokemon Groc',
+              href: '/fan-games/pokemon-groc'
+            }
           ],
         },
         {
-          title: 'Links',
+          title: 'Print & Play',
+          items: [
+            {
+              label: 'PaintKin',
+              href: '/fan-games/paintkin'
+            },
+            {
+              label: 'Wits & Guts',
+              href: '/fan-games/wits-and-guts'
+            }
+          ],
+        },
+        {
+          title: 'Stay tuned',
           items: [
             {
               label: 'Instagram',
@@ -113,7 +118,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} @bearni95`,
+      copyright: `Copyright © ${new Date().getFullYear()} bearni95dev`,
     },
     prism: {
       theme: prismThemes.github,
