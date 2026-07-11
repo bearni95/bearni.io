@@ -40,8 +40,11 @@ const config: Config = {
       'classic',
       {
         docs: {
+                  routeBasePath: '/', // <- serve docs at the site root
           sidebarPath: './sidebars.ts',
+
         },
+        blog:false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -58,16 +61,10 @@ const config: Config = {
     navbar: {
       title: 'bearni95dev',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Logo',
+        src: 'img/logo.png',
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
-        },
         {
           href: 'https://github.com/bearni95',
           label: 'GitHub',
@@ -81,10 +78,6 @@ const config: Config = {
         {
           title: 'Docs',
           items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
           ],
         },
         {
@@ -121,17 +114,8 @@ const config: Config = {
             },
           ],
         },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} @bearni95`,
     },
     prism: {
       theme: prismThemes.github,

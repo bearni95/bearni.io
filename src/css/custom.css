@@ -24,3 +24,19 @@
   --ifm-color-primary-lighter: #ffb566;
   --ifm-color-primary-lightest: #ffd1a3;
 }
+
+nav.pagination-nav{
+  display:none !important;
+}
+
+
+img.project-icon{
+  border:1px solid black;
+  border-radius:32px;
+  width:256px;
+}
+
+.navbar__logo{
+  border-radius:100%;
+  overflow:hidden;
+}

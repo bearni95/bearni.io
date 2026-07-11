@@ -1,0 +1,9 @@
+{
+  "label": "Print & Play",
+  "position": 2,
+  "collapsible": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Original games, adventure modules, varied resources..."
+  }
+}
