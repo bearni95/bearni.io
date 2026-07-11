@@ -79,12 +79,12 @@ const config: Config = {
           items: [
             {
               label: 'Dice Duel Monsters',
-              href: '/fan-games/dice-duel-monsters'
+              href: '/fan-games/dice-duel-monsters',
             },
             {
               label: 'Pokemon Groc',
-              href: '/fan-games/pokemon-groc'
-            }
+              href: '/fan-games/pokemon-groc',
+            },
           ],
         },
         {
@@ -92,12 +92,12 @@ const config: Config = {
           items: [
             {
               label: 'PaintKin',
-              href: '/print-and-play/paintkin'
+              href: '/print-and-play/paintkin',
             },
             {
               label: 'Wits & Guts',
-              href: '/print-and-play/wits-and-guts'
-            }
+              href: '/print-and-play/wits-and-guts',
+            },
           ],
         },
         {
