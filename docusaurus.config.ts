@@ -65,8 +65,7 @@ const config: Config = {
       },
       items: [
         {
-          href: 'https://github.com/bearni95',
-          label: 'GitHub',
+          type: 'custom-socialLinks',
           position: 'right',
         },
       ],
@@ -84,6 +83,14 @@ const config: Config = {
             {
               label: 'Pokemon Groc',
               href: '/fan-games/pokemon-groc',
+            },
+            {
+              label: 'Pokemon Masters Online',
+              href: '/fan-games/pokemon-masters-online',
+            },
+            {
+              label: 'Yu-Gi-Oh! Duel Simulator',
+              href: '/fan-games/yu-gi-oh-duel-sim',
             },
           ],
         },
@@ -114,6 +121,10 @@ const config: Config = {
             {
               label: 'Github',
               href: 'https://github.com/bearni95',
+            },
+            {
+              label: 'TikTok',
+              href: 'https://www.tiktok.com/@bearni95dev',
             },
           ],
         },
